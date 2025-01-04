@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: white;
+}
+
+.container {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.header {
+    color: orange;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    gap: 7px;
+}
+
+.isi {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 210, 127);
+    padding: 5px;
+    gap: 10px;
+    justify-content: center;
+}
+
+.teks {
+    width: 100%;
+    padding: 5px;
+    background-color: white;
+    text-align: justify;
+}
+
+.setbar {
+    width: 15%;
+    background-color: whitesmoke;
+    padding: 5px;display: flex;
+    flex-direction: column;
+}
+
+.gambar {
+    background-color: peachpuff;
+    max-width: 20%;
+    padding: 5px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.link {
+    background-color: whitesmoke;
+    width: 100%;
+    text-align: left;
+}
+
+.link a {
+    text-decoration: none;
+}
+
+.footer {
+    background-color: azure;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+button {
+    padding: 5px;
+    background-color: orange;
+    border: none;
+    padding: 5px;
+}
+
+.Text{
+    width: 100%;
+    padding: 5px;
+    background-color: white;
+    text-align: justify;
+}
+
+.Teks3{
+    width: 100%;
+    padding: 5px;
+    background-color: white;
+    text-align: justify;
+}
